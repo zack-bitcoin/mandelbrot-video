@@ -1,0 +1,42 @@
+convert image01.png -resize 800x500\! exact01.png
+convert image02.png -resize 800x500\! exact02.png
+convert image03.png -resize 800x500\! exact03.png
+convert image04.png -resize 800x500\! exact04.png
+convert image05.png -resize 800x500\! exact05.png
+convert image06.png -resize 800x500\! exact06.png
+convert image07.png -resize 800x500\! exact07.png
+convert image08.png -resize 800x500\! exact08.png
+convert image09.png -resize 800x500\! exact09.png
+convert image10.png -resize 800x500\! exact10.png
+convert image11.png -resize 800x500\! exact11.png
+convert image12.png -resize 800x500\! exact12.png
+convert image13.png -resize 800x500\! exact13.png
+convert image14.png -resize 800x500\! exact14.png
+convert image15.png -resize 800x500\! exact15.png
+convert image16.png -resize 800x500\! exact16.png
+convert image17.png -resize 800x500\! exact17.png
+convert image18.png -resize 800x500\! exact18.png
+convert image19.png -resize 800x500\! exact19.png
+convert image20.png -resize 800x500\! exact20.png
+convert image21.png -resize 800x500\! exact21.png
+convert image22.png -resize 800x500\! exact22.png
+convert image23.png -resize 800x500\! exact23.png
+convert image24.png -resize 800x500\! exact24.png
+convert image25.png -resize 800x500\! exact25.png
+convert image26.png -resize 800x500\! exact26.png
+convert image27.png -resize 800x500\! exact27.png
+convert image28.png -resize 800x500\! exact28.png
+convert image29.png -resize 800x500\! exact29.png
+convert image30.png -resize 800x500\! exact30.png
+convert image31.png -resize 800x500\! exact31.png
+convert image32.png -resize 800x500\! exact32.png
+convert image33.png -resize 800x500\! exact33.png
+convert image34.png -resize 800x500\! exact34.png
+convert image35.png -resize 800x500\! exact35.png
+convert image36.png -resize 800x500\! exact36.png
+convert image37.png -resize 800x500\! exact37.png
+convert image38.png -resize 800x500\! exact38.png
+convert image39.png -resize 800x500\! exact39.png
+
+mogrify -format jpg exact*
+rm -r exact*.png
